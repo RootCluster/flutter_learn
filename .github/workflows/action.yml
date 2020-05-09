@@ -38,8 +38,8 @@ jobs:
         # 改成你的提交用户名
         git config --global user.name BladeCode
         git status
-        # 更改此远程URL，例如查看您的远程URL是 https://github.com/onatcipli/flutter_web.git 然后改成以下内容
-        git remote add origin https://${{ secrets.ACCESS_TOKEN }}@github.com/RootCluster/flutter_learn.git
+        # 更改此远程URL，例如查看您的远程URL是 https://github.com/RootCluster/flutter_learn 然后改成以下内容
+        git remote add origin https://github.com/RootCluster/flutter_learn.git
         git checkout -b gh-pages
         git add --all
         git commit -m "Update by github action"
