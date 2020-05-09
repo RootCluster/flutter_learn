@@ -4,6 +4,9 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+  // 我们通常通过对基础 Widget 进行相应的 UI 配置，或是组合各类基础 Widget
+  // 的方式进行 UI 的定制化。比如在 MyApp 中，我通过MaterialApp 这个
+  // Flutter App 框架设置了应用首页，即 MyHomePage
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

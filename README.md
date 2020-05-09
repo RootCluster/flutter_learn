@@ -14,3 +14,15 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
+```
+flutter_learn
+  ├── android           - 包含 Android特定文件的 Android子工程 
+  ├── build             - Android 和 iOS 构建后的产物
+  ├── ios               - 包含 iOS 特定文件的 iOS 子工程  
+  ├── lib               - flutter应用源文件目录  
+  │ └── main.dart       - 程序运行入口文件
+  ├── test              - 测试文件  
+  ├── pubspec.lock      - 记录当前项目实际依赖信息的文件  
+  └── pubspec.yaml      - 管理第三方库及资源的配置文件
+```
